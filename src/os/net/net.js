@@ -68,7 +68,7 @@ os.net.addDefaultHandlers = function() {
   os.net.RequestHandlerFactory.addHandler(os.net.LocalFileHandler);
   os.net.RequestHandlerFactory.addHandler(os.net.SameDomainHandler);
   os.net.RequestHandlerFactory.addHandler(os.net.ExtDomainHandler);
-  os.net.RequestHandlerFactory.addHandler(os.net.ProxyHandler);
+  // os.net.RequestHandlerFactory.addHandler(os.net.ProxyHandler);
 };
 
 
