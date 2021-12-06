@@ -45,7 +45,7 @@
     "maxLabels": 5,
     "enableReprojection": false,
     "proxy": {
-      "url": "/proxy/{url}",
+      "url": "{url}",
       "methods": [
         "GET",
         "POST",
